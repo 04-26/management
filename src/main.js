@@ -22,7 +22,7 @@ import 'video.js/dist/video-js.css'
 import moment from 'moment'
 import 'viewerjs/dist/viewer.css';
 import Viewer from 'v-viewer'
-process.env.NODE_ENV==='development' && require('../mock');
+// process.env.NODE_ENV==='development' && require('../mock');
 // Vue.use($)
 Vue.use(BootstrapVue)
 Vue.use(Viewer)
@@ -44,6 +44,7 @@ Vue.prototype.$upfileUrl = function(url){
         return url;
     }
 };
+window.localStorage.setItem('t_k_1130_h5-@&1265','NDY0MV81XzJfMjAyMDAxMTIxMDAxNTlfMQ==')
 Vue.prototype.req = request;
 Vue.prototype.$moment = moment;
 Vue.config.productionTip = false;
