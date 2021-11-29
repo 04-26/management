@@ -19,7 +19,7 @@
     "jquery": "^2.1.1",
     "js-base64": "^2.5.1",
     "lodash": "^4.17.15",
-    "mavon-editor": "^2.6.17",
+    "mavon-editor": "^2.8.2",
     "moment": "^2.24.0",
     "popper.js": "^1.15.0",
     "qqmap": "^1.0.1",
